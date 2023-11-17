@@ -13,7 +13,7 @@ const Features = () => {
             center
           />
 
-          <div className="grid  gap-x-8 gap-y-14 md:grid-cols-2">
+          <div className="grid  gap-x-8 gap-y-14 lg:grid-cols-2 xs:grid-cols-2 sm:grid-cols-1 md:grid-cols-1">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
